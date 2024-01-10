@@ -73,6 +73,7 @@ export const projectsData = [
       'Hotel application to manage bookings, cabins and users. Users can login, manage their account, add/edit/remove cabins or bookings. It has features like filtering, sorting and pagination.',
     tags: ['React', 'Vite', 'JavaScript', 'Styled-Components', 'Supabase'],
     imageUrl: aroundTheWorldImg,
+    url: 'https://github.com/JulianaCotabarren/Around-The-World'
   },
   {
     title: 'AdminPro',
@@ -80,6 +81,7 @@ export const projectsData = [
       'Administrative platform to manage doctors, hospitals and users. Users can login with email or Google account, change their account settings, add/edit/remove doctors and hospitals.',
     tags: ['MongoDB', 'Express.js', 'Angular', 'NodeJS', 'TypeScript'],
     imageUrl: adminproImg,
+    url: 'https://github.com/JulianaCotabarren/adminpro'
   },
   {
     title: 'Spotify Clone',
@@ -87,6 +89,7 @@ export const projectsData = [
       'Spotify web application with a set of songs that can be played or searched. It has features like login with email, play/pause and player with progress bar.',
     tags: ['MongoDB', 'Express.js', 'Angular', 'NodeJS', 'TypeScript'],
     imageUrl: spotifyImg,
+    url: 'https://github.com/JulianaCotabarren/spotify-clone'
   },
   {
     title: 'Marvel Searcher',
@@ -94,6 +97,7 @@ export const projectsData = [
       'Web application for quick search of Marvel heroes. It shows random heroes, a description of their comics and dark/light mode. Users can select their favourite heroes.',
     tags: ['React', 'Vite', 'JavaScript', 'Styled-Components'],
     imageUrl: marvelSearcherImg,
+    url: 'https://github.com/JulianaCotabarren/Marvel-Searcher-Leniolabs'
   },
   {
     title: 'Food Order App',
@@ -101,6 +105,7 @@ export const projectsData = [
       'A delivery web application to order food. Users can select different meals that are added to a shopping cart and fill a reactive form to the delivery.',
     tags: ['React', 'JavaScript', 'CSS', 'Firebase'],
     imageUrl: foodOrderAppImg,
+    url: 'https://github.com/JulianaCotabarren/Food-Order-App'
   },
 ] as const;
 
