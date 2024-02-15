@@ -37,33 +37,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Biotechnology Degree',
+    title: 'Frontend Developer',
+    subtitle: 'Local Start-Up',
     description:
-      'I graduated as Lic. in Biotechnology and Molecular Biology from the National University of La Plata.',
+      "I'm now a frontend developer working at Local Start-Up. My stack includes React, Next.js, Angular, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: 'Sep. 2023 - Present',
+  },
+  {
+    title: 'Graduated Web Developer with React.JS',
+    subtitle: 'Leniolabs_LLC',
+    description:
+      'I graduated as Web Developer with React.JS after Leniolabs bootcamp. Recognized as one of the best final projects of this Bootcamp’s edition.',
     icon: React.createElement(LuGraduationCap),
-    date: '2014',
+    date: 'May 2023 - Aug. 2023',
+  },
+  {
+    title: 'Graduated Frontend Web Developer',
+    subtitle: 'EducaciónIT',
+    description:
+      'I graduated as Frontend Web Developer after EducaciónIT courses.',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Nov. 2022 - Apr. 2023',
   },
   {
     title: 'Researcher and Graduate Assistant',
+    subtitle: 'CONICET - UNLP',
     description:
-      'I worked as a researcher for 8 years in the National Counsil of Technical and Cientific Research (CONICET) and for 5 years as a graduate assistant in the National University of La Plata.',
+      'I worked as a researcher for 8 years in the National Scientific and Technical Research Council (CONICET) and for 5 years as a graduate assistant in the National University of La Plata (UNLP).',
     icon: React.createElement(CgWorkAlt),
-    date: '2015 - 2023',
+    date: 'Feb. 2015 - Mar. 2023',
   },
   {
-    title: 'Graduated Frontend Developer',
+    title: 'Biotechnology Degree',
+    subtitle: 'UNLP',
     description:
-      'I graduated as Frontend Developer after EducaciónIT courses and Leniolabs bootcamp.',
+      'I graduated with a bachelor´s degree in Biotechnology and Molecular Biology from the National University of La Plata.',
     icon: React.createElement(LuGraduationCap),
-    date: '2023',
-  },
-  {
-    title: 'Frontend Developer',
-    description:
-      "I'm now a frontend developer working as a freelancer. My stack includes React, Next.js, Angular, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2023 - present',
-  },
+    date: 'Mar. 2007 - Mar. 2014',
+  }
 ] as const;
 
 export const projectsData = [
@@ -116,7 +128,6 @@ export const skillsData = [
   'TypeScript',
   'React',
   'Angular',
-  'Java',
   'Next.js',
   'Node.js',
   'Express',

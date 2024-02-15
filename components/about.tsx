@@ -28,7 +28,7 @@ export default function About() {
     <p className="mb-3">
         My core stack is{" "}
         <span className="font-bold">React (Next.js) and Angular</span>
-        . I am also familiar with MySQL, MongoDB and Java. I am always looking to
+        . I am also familiar with MySQL and MongoDB. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-bold underline">full-time position</span> 
         {" "} as a frontend developer.  
